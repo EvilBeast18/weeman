@@ -14,7 +14,7 @@ except ImportError:
     printt(1, "Please install beautifulsoup 4 to continue ...")
 
 def tests_pyver():
-    if sys.version[:3] == "2.7" or "2" in sys.version[:3]:
+    if sys.version[:3] == "2.7" or "3.6" in sys.version[:3]:
         pass # All good
     elif "3" in sys.version[:3]:
         printt(1,"Weeman has no support for Python 3.")
